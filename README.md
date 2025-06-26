@@ -5,18 +5,9 @@
 An interactive Power BI dashboard analyzing crime patterns in Los Angeles (2020–present), powered by Python ETL and SQL Server.
 
 ## 📁 Project Structure
-crime-analysis-dashboard/
-├── data_processing/ # Data pipeline scripts
-│ ├── crime_etl.py # Python ETL script (data cleaning)
-│ └── crime_schema.sql # SQL Server schema definition
-├── powerbi/ # Dashboard files
-│ └── crime_dashboard.pbix # Main Power BI report
-├── docs/ # Documentation
-│  ── screenshots/ # Dashboard previews
-├── .gitignore # Excluded files
-└── LICENSE # MIT License
-
-text
+crime-analysis-dashboard/<br>
+├── data_processing/ # Data pipeline scripts                                                                                                                                                                 
+│ ├── crime_etl.py # Python ETL script (data cleaning)<br>                                                                                                                                                           │ └── crime_schema.sql # SQL Server schema definition<br>                                                                                                                                                            ├── powerbi/ # Dashboard files<br>                                                                                                                                                                                   │ └── crime_dashboard.pbix # Main Power BI report<br>                                                                                                                                                                ├── docs/ # Documentation<br>                                                                                                                                                                                        │  ── screenshots/ # Dashboard previews<br>                                                                                                                                                                          ├── .gitignore # Excluded files<br>                                                                                                                                                                                  └── LICENSE # MIT License<br>
 
 ## 🛠️ Setup Guide
 
@@ -31,26 +22,27 @@ text
    sqlcmd -S your_server -U username -P password -i data_processing/crime_schema.sql
 ETL Pipeline:
 
-bash
-cd data_processing
-pip install -r requirements.txt  # Install Python dependencies
-python crime_etl.py
-Power BI:
+bash<br>
+cd data_processing<br>
+pip install -r requirements.txt  # Install Python dependencies<br>
+python crime_etl.py<br>
+
+#Power BI:
 
 Open powerbi/crime_dashboard.pbix
 
 Set data source credentials in:
 
 text
-Home → Transform data → Data source settings
+Home → Transform data → Data source settings<br>
 🔍 Key Features
-Feature	Description	Example Use Case
-Crime Hotspots	Leaflet map with precise coordinates	Identify high-crime neighborhoods
-Time Trends	Quarterly/hourly crime patterns	Optimize police patrol schedules
-Crime Rankings	Top 10 crime types by frequency	Allocate resources to top risks
-📊 Data Flow
-Diagram
-Code
+Feature	Description	Example Use Case<br>
+Crime Hotspots	Leaflet map with precise coordinates	Identify high-crime neighborhoods<br>
+Time Trends	Quarterly/hourly crime patterns	Optimize police patrol schedules<br>
+Crime Rankings	Top 10 crime types by frequency	Allocate resources to top risks<br>
+📊 Data Flow<br>
+Diagram<br>
+Code<br>
 
 
 
@@ -63,22 +55,22 @@ Use the Year slider to focus on specific periods
 
 Click crime types in the legend to isolate patterns
 
-Export Data:
+Export Data:<br>
 
-powerquery
-// Power BI: File → Export → CSV/PDF
+powerquery<br>
+// Power BI: File → Export → CSV/PDF<br>
 🤝 Contributing
 Fork the repository
 
-Create a feature branch:
+Create a feature branch:<br>
 
-bash
-git checkout -b feature/heatmap-enhancements
-Submit a Pull Request with:
+bash<br>
+git checkout -b feature/heatmap-enhancements<br>
+Submit a Pull Request with:<br>
 
-Tested changes
+Tested changes<br>
 
-Updated documentation
+Updated documentation<br>
 
 📜 License
 MIT License - See LICENSE for details.
