@@ -1,6 +1,6 @@
 # Crime Analysis Dashboard
 
-![DashboardScreenshot](Dashboard Screenshot.png)
+![DashboardScreenshot](Screenshot/Dashboard Screenshot.png)
 
 An interactive Power BI dashboard analyzing crime patterns in Los Angeles (2020–present), powered by Python ETL and SQL Server.
 
